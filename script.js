@@ -77,6 +77,7 @@ keys.addEventListener('click', e => {
             old_second_value='';
             keys.dataset.previousKeyType = 'clearall';
             display.textContent=0;
+            previous.textContent=' ';
         }
         if (action === 'result') {
             console.log('result')
